@@ -73,12 +73,12 @@ int main ()
  third->data=15;
  third->next=NULL;
 
- printf("Linked List befor insertion\n");
+ printf("Linked List befor deletion \n");
  linkedListTraversal(head);
  //head=deleteFirst(head);//For deliting the first element 
  //head=deleteAtIndex(head,2);
  head = deleteAtLast(head);
- printf("Linked List after insertion\n");
+ printf("Linked List after deletetion\n");
  linkedListTraversal(head);
 
  return 0;
